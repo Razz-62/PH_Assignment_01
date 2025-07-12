@@ -15,6 +15,7 @@
 
 body{
     background-color: rgb(254, 251, 246);
+    height: auto;
 }
 
 /* main */
@@ -259,27 +260,21 @@ form label{
     color: black;
     font-size: 19px;
 }
-form input[type="email"],form input[type="text"]{
-    height: 30px;
-    border-radius: 5px;
+form input[type="email"],form input[type="text"],form textarea{
+    height: 50px;
+    border-radius: 10px;
     background-color: aliceblue;
     display: block;
     width: 100%;
     padding: 10px 20px;
     font-size: 17px;
     margin: 10px 0px;
+    box-sizing: border-box;
     border: none;
 }
 form textarea{
-    height: 60px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: aliceblue;
-    display: block;
+    height: 90px;
     padding: 20px 20px;
-    font-size: 17px;
-    margin: 10px 0px;
-    border: none;
 }
 .form-button {
     padding: 14px;
@@ -301,13 +296,15 @@ form textarea{
 /* footer */
 footer{
     background-color: white;
+    width: 100%;
+    padding-top: 20px;
 }
 
 footer h2{
     text-align: center;
     font-size: 100px;
     color: #4E47FF;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 footer p{
     text-align: center;
